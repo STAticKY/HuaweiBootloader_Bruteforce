@@ -1,7 +1,13 @@
+Changed fastboot oem unlock to fastboot oem unlock-go 
+It now skips the confirm prompt that causes the following error
+```
+failed (write to device failed "(no link))"
+```
+
 # HuaweiBootloader_Bruteforce
 Fastboot OEM Unlock Bruteforce Software
 
-[![Build status](https://ci.appveyor.com/api/projects/status/h1cujp12k7ea91dt?svg=true)](https://ci.appveyor.com/project/rainxh11/huaweibootloader-bruteforce)
+[![Build status](https://ci.appveyor.com/api/projects/status/d8ygs5lc7jl5cd14?svg=true)](https://ci.appveyor.com/project/Ayylmao6969/huaweibootloader-bruteforce)
 
 
 ## Summary
