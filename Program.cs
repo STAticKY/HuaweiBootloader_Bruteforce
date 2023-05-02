@@ -64,7 +64,7 @@ namespace HuaweiBootloader_Bruteforce
             Process fastBootExe = new Process();
 
             fastBootExe.StartInfo.FileName = fastbooDir + "fastboot.exe";
-            fastBootExe.StartInfo.Arguments = $"oem unlock {oemCode}";
+            fastBootExe.StartInfo.Arguments = $"oem unlock-go {oemCode}";
             fastBootExe.StartInfo.CreateNoWindow = true;
             fastBootExe.StartInfo.UseShellExecute = false;
             fastBootExe.StartInfo.RedirectStandardOutput = true;
